@@ -1,0 +1,55 @@
+<!--
+ * @Descripttion: vue前端项目
+ * @version: 1.0.0
+ * @Author: Baishaodong
+ * @Date: 2022-03-30 16:51:44
+ * @LastEditors: Baishaodong
+ * @LastEditTime: 2022-03-30 18:30:43
+ * @BlogSite: https://www.xiaobaibk.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shizuku</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .container {
+        height: 320px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">请先进行以下操作</h5>
+          <p class="card-text"></p>
+          <ul>
+            <li>
+              打开手机开发者选项与USB调试，将USB连接设置为「仅充电」
+              （<label>小米手机</label>需开启开发者选项「USB调试（安全设置）」，
+              <label>华为手机</label
+              >需开启开发者选项「“仅充电”模式下允许ADB调试」）。
+            </li>
+            <li>
+              （Windows 系统）将手机通过数据线连接电脑，安装手机驱动程序。
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin: 0.25rem"></div>
+      <button type="button" class="btn btn-success" id="connect"></button>
+      <button type="button" class="btn btn-secondary" id="disconnect">
+        关闭连接
+      </button>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/webadb.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

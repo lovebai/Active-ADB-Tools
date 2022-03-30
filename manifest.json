@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Active ADB Tools",
+    "description": "It's just a plugin that activates a script.",
+    "version": "1.0",
+    "icons": {
+        "16": "images/icon_16.png",
+        "48": "images/icon_48.png",
+        "128": "images/icon_128.png"
+    },
+    "action": {
+        "default_icon": "images/icon_48.png",
+        "default_popup": "pages/popup.html"
+    }
+}

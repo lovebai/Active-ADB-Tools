@@ -1,0 +1,29 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 320px;
+  height: 360px;
+}
+.card {
+  margin-top: 2rem;
+}
+.h2 {
+  margin: 0.6rem 0rem 0.2rem 0.6rem;
+}
+.card-img-top {
+  width: 4rem;
+  margin-left: 1rem;
+}
+.col-sm-2 {
+  padding: 0.5rem;
+}
+.col-sm-2 a {
+  color: #393e42;
+  text-decoration: none;
+}
+ul > li {
+  font-size: 0.9rem;
+}
